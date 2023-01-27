@@ -1,0 +1,20 @@
+Oceanography: Salinity vs. Temperature of Water
+In this project, we are looking for a relationship between ocean water salinity and temperature.
+With this dataset, we can use the relationship to monitor the indicators of El Nino (warm phase of Pacific Ocean) and climate change. 
+The questions we will answer are: Is there a relationship between water salinity & water temperature? 
+Can you predict the water temperature based on salinity? 
+Are there other factors that can also predict water temperature?
+
+This is a regression analysis problem.
+
+This is an inference problem.
+
+We will assess model accuracy by identifying error bounds in the analysis through use of the RMSE (Root Mean Squared Error)
+because the RMSE gives a relatively high weight to large errors, which we want to make sure we don’t miss in our analysis.
+
+The data collected at depths down to 500 m include: temperature, salinity, oxygen, phosphate, silicate, nitrate and nitrite, chlorophyll, 
+transmissometer, PAR, C14 primary productivity, phytoplankton biodiversity, zooplankton biomass, and zooplankton biodiversity. 
+Because of this, we will need to do variable selection (starting off with just salinity and temperature) to find relationships 
+between variables and to see whether there is an accurate predictor for temperature of the water.
+
+
